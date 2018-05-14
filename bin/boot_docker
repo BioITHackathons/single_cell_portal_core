@@ -13,6 +13,7 @@ $0 [OPTION]
 -n VALUE	set the name of the docker container (defaults to 'single_cell')
 -e VALUE	set the environment (defaults to 'development'. Running in 'production' will cause container to spawn headlessly)
 -d VALUE	set the project directory to mount inside Docker container (defaults to current working directory: `pwd`)
+-D VALUE	set the docker image version to use when booting the container (defaults to 'latest')
 -m VALUE	set the MONGO_LOCALHOST variable, only used in development (defaults to 'mongodb')
 -r VALUE	set the maximum allowable RAM to be allocated to portal (defaults to 12GB)
 -s VALUE	set the SECRET_KEY_BASE variable, used for secure cookies (auto-generates by default)
@@ -43,7 +44,7 @@ GOOGLE_CLIENT_ID=$GOOGLE_CLIENT_ID
 GOOGLE_CLOUD_PROJECT=$GOOGLE_CLOUD_PROJECT
 DOCKER_IMAGE_VERSION='latest'
 
-while getopts "n:e:d:m:r:s:k:p:h:u:P:H:o:S:" OPTION; do
+while getopts "n:e:d:D:m:r:s:k:p:h:u:P:H:o:S:" OPTION; do
 case $OPTION in
 	n)
 		CONTAINER_NAME="$OPTARG"
@@ -53,6 +54,9 @@ case $OPTION in
 		;;
 	d)
 		PROJECT_DIR="$OPTARG"
+		;;
+	D)
+		DOCKER_IMAGE_VERSION="$OPTARG"
 		;;
 	m)
   	MONGO_LOCALHOST="$OPTARG"
@@ -98,7 +102,7 @@ done
 if [[ $PASSENGER_APP_ENV = "production" ]]
 then
 	# generate random secret key for secure cookies
-	docker run -d --name $CONTAINER_NAME -p 80:80 -p 443:443 --link mongodb:mongodb -h $PROD_HOSTNAME -v $PROJECT_DIR:/home/app/webapp:rw -v $PROJECT_DIR/data:/home/app/webapp/data:rw -m $MAX_RAM -e PASSENGER_APP_ENV=$PASSENGER_APP_ENV -e MONGO_LOCALHOST=$MONGO_LOCALHOST -e PROD_DATABASE_PASSWORD=$PROD_DATABASE_PASSWORD -e SERVICE_ACCOUNT_KEY=$SERVICE_ACCOUNT_KEY -e SECRET_KEY_BASE=$SECRET_KEY_BASE -e PROD_HOSTNAME=$PROD_HOSTNAME -e SENDGRID_USERNAME=$SENDGRID_USERNAME -e SENDGRID_PASSWORD=$SENDGRID_PASSWORD -e OAUTH_CLIENT_ID=$OAUTH_CLIENT_ID -e OAUTH_CLIENT_SECRET=$OAUTH_CLIENT_SECRET single_cell_docker:$DOCKER_IMAGE_VERSION
+	docker run -d --name $CONTAINER_NAME -p 80:80 -p 443:443 -h $PROD_HOSTNAME -v $PROJECT_DIR:/home/app/webapp:rw -v $PROJECT_DIR/data:/home/app/webapp/data:rw -e PASSENGER_APP_ENV=$PASSENGER_APP_ENV -e MONGO_LOCALHOST=$MONGO_LOCALHOST -e PROD_DATABASE_PASSWORD=$PROD_DATABASE_PASSWORD -e SERVICE_ACCOUNT_KEY=$SERVICE_ACCOUNT_KEY -e SECRET_KEY_BASE=$SECRET_KEY_BASE -e PROD_HOSTNAME=$PROD_HOSTNAME -e SENDGRID_USERNAME=$SENDGRID_USERNAME -e SENDGRID_PASSWORD=$SENDGRID_PASSWORD -e OAUTH_CLIENT_ID=$OAUTH_CLIENT_ID -e OAUTH_CLIENT_SECRET=$OAUTH_CLIENT_SECRET single_cell_docker:$DOCKER_IMAGE_VERSION
 elif [[ $PASSENGER_APP_ENV = "staging" ]]
 then
 	docker run -d --name $CONTAINER_NAME -p 80:80 -p 443:443 --link mongodb:mongodb -h $PROD_HOSTNAME -v $PROJECT_DIR:/home/app/webapp:rw -v $PROJECT_DIR/data:/home/app/webapp/data:rw -v $PROJECT_DIR/single-cell-staging.broadinstitute.org.crt:/etc/pki/tls/certs/localhost.crt -v $PROJECT_DIR/single-cell-staging.broadinstitute.org.key:/etc/pki/tls/private/localhost.key -m $MAX_RAM -e PASSENGER_APP_ENV=$PASSENGER_APP_ENV -e MONGO_LOCALHOST=$MONGO_LOCALHOST -e PROD_DATABASE_PASSWORD=$PROD_DATABASE_PASSWORD -e SERVICE_ACCOUNT_KEY=$SERVICE_ACCOUNT_KEY -e SECRET_KEY_BASE=$SECRET_KEY_BASE -e PROD_HOSTNAME=$PROD_HOSTNAME -e SENDGRID_USERNAME=$SENDGRID_USERNAME -e SENDGRID_PASSWORD=$SENDGRID_PASSWORD -e OAUTH_CLIENT_ID=$OAUTH_CLIENT_ID -e OAUTH_CLIENT_SECRET=$OAUTH_CLIENT_SECRET single_cell_docker:$DOCKER_IMAGE_VERSION

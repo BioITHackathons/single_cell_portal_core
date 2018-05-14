@@ -189,7 +189,11 @@ class Study
   has_many :user_data_arrays, dependent: :delete
 
   # HCA metadata object
-  has_many :analysis_metadata, dependent: :delete
+  has_many :analysis_metadata, dependent: :delete do
+    def public
+      where(published: true)
+    end
+  end
 
   # field definitions
   field :name, type: String

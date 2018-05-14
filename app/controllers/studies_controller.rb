@@ -1049,6 +1049,17 @@ class StudiesController < ApplicationController
     end
   end
 
+  ## ANALYSIS METADATUM METHODS
+
+  def update_analysis_metadata
+    @analysis = AnalysisMetadatum.find(params[:analysis_metadata_id])
+    if @analysis.update(analysis_metadata_params)
+      @notice = "Analysis: '#{@analysis.name}' has successfully been #{@analysis.published ? 'published' : 'unpublished'}."
+    else
+      @alert = "Unable to update analysis metadata #{@analysis.name}: #{@analysis.errors.map(&:full_messages).join(', ')}"
+    end
+  end
+
   private
 
   ###
@@ -1083,6 +1094,10 @@ class StudiesController < ApplicationController
   def default_options_params
     params.require(:study_default_options).permit(:cluster, :annotation, :color_profile, :expression_label, :cluster_point_size,
                                                   :cluster_point_alpha, :cluster_point_border)
+  end
+
+  def analysis_metadata_params
+    params.require(:analysis_metadatum).permit(:published)
   end
 
   def set_file_types
