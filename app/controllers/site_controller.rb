@@ -249,13 +249,13 @@ class SiteController < ApplicationController
         when 'submission_id'
           matches = matches.send(search_operator, {submission_id: params[:submission_id]})
         when 'study'
-          studies = Study.any_of({name: /#{params[:study]}/},{url_safe_name: /#{params[:study]}/})
+          studies = Study.any_of({name: /#{params[:study]}/i},{url_safe_name: /#{params[:study]}/i})
           if studies.size > 0
             ids = studies.map(&:id)
             matches = matches.send(search_operator, {:study_id.in => ids})
           end
         when 'name'
-          matches = matches.send(search_operator, {name: /#{params[:name]}/})
+          matches = matches.send(search_operator, {name: /#{params[:name]}/i})
         else
           matches = matches.send(search_operator, {"#{param}" => value})
       end

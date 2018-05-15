@@ -11,15 +11,16 @@ Missing (good) a check that the anatomical terms are present.
 import re
 from sys import argv
 
-if len(argv) != 2:
-	print("Please suppy input TTL file")
+if len(argv) != 5:
+	print("Usage: --input IN --output OUT")
 	exit()
 else:
-	fname = argv[1]
+	fname_in = argv[2]
+	fname_out = argv[4]
 
 owlDict = {}
 
-with open(fname) as f:
+with open(fname_in) as f:
 	content = f.readlines()
 	for line in content:
 		stripped_line = line.rstrip()
@@ -27,7 +28,7 @@ with open(fname) as f:
 			continue
 		if "UBERON_" not in stripped_line:
 			continue
-		words1 = re.split(r'(\")', stripped_line)
+		words1 = re.split(r'(")', stripped_line)
 		if len(words1) < 4:
 			continue
 		organ = words1[2]
@@ -39,6 +40,11 @@ with open(fname) as f:
 			owlDict[uri] += ";"
 			owlDict[uri] += organ
 
-for key,value in sorted(owlDict.items()):
-	print(key, value)
+with open(fname_out, "w") as f_out:
+	for key,value in sorted(owlDict.items()):
+		f_out.write(key)
+		f_out.write(" ")
+		f_out.write(value)
+		f_out.write("\n")
 	
+f_out.close()

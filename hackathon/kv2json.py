@@ -14,13 +14,14 @@ def MakeDict(oldDict):
 	return retDict
 	
 
-if len(argv) != 2:
-	print("Please supply input JSON file")
+if len(argv) != 5:
+	print("Usage: --input IN --output OUT")
 	exit()
 else:
-	fname = argv[1]
+	fname_in = argv[2]
+	fname_out = argv[4]
 
-inJson = json.load(open(fname))
+inJson = json.load(open(fname_in))
 
 outJson = {}
 
@@ -36,4 +37,6 @@ for elem in inJson:
 
 
 outJsonList = [outJson]
-print(outJsonList)
+with open(fname_out, "w") as f_out:
+	json.dump(outJsonList, f_out)
+	f_out.close()

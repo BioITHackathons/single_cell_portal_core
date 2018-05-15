@@ -68,6 +68,10 @@ class AnalysisMetadatum
     {
         url: self.public_url,
         study_url: self.study_url,
+        license: {
+            name: 'Creative Commons Attribution-NoDerivatives 4.0 International Public License',
+            url: 'https://creativecommons.org/licenses/by-nd/4.0/legalcode',
+        },
         payload: self.payload
     }
   end
