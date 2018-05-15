@@ -1,0 +1,3005 @@
+{
+	"taxon":
+	[
+		{
+			"root":"Bacteria;eubacteria"
+		},
+		{
+			"root":"Azorhizobium"
+		},
+		{
+			"root":"Azorhizobium caulinodans"
+		},
+		{
+			"root":"Buchnera aphidicola"
+		},
+		{
+			"root":"Cellvibrio"
+		},
+		{
+			"root":"Cellulomonas gilvus"
+		},
+		{
+			"root":"Dictyoglomus"
+		},
+		{
+			"root":"Dictyoglomus thermophilum"
+		},
+		{
+			"root":"Methylophilus"
+		},
+		{
+			"root":"Methylophilus methylotrophus"
+		},
+		{
+			"root":"Pelobacter"
+		},
+		{
+			"root":"Pelobacter carbinolicus"
+		},
+		{
+			"root":"Phenylobacterium"
+		},
+		{
+			"root":"Phenylobacterium immobile"
+		},
+		{
+			"root":"Shewanella"
+		},
+		{
+			"root":"Shewanella colwelliana"
+		},
+		{
+			"root":"Shewanella putrefaciens"
+		},
+		{
+			"root":"Shewanella hanedai"
+		},
+		{
+			"root":"halophilic eubacterium NRCC 41227"
+		},
+		{
+			"root":"halophilic eubacterium"
+		},
+		{
+			"root":"fruiting gliding bacteria;Myxococcales"
+		},
+		{
+			"root":"Myxococcaceae"
+		},
+		{
+			"root":"Myxococcus"
+		},
+		{
+			"root":"Myxococcus fulvus"
+		},
+		{
+			"root":"Myxococcus xanthus"
+		},
+		{
+			"root":"Myxococcus macrosporus"
+		},
+		{
+			"root":"Archangium disciforme"
+		},
+		{
+			"root":"Archangiaceae"
+		},
+		{
+			"root":"Stigmatella"
+		},
+		{
+			"root":"Stigmatella aurantiaca"
+		},
+		{
+			"root":"Cystobacter"
+		},
+		{
+			"root":"Cystobacter fuscus"
+		},
+		{
+			"root":"Melittangium"
+		},
+		{
+			"root":"Melittangium lichenicola"
+		},
+		{
+			"root":"Archangium"
+		},
+		{
+			"root":"Archangium gephyra"
+		},
+		{
+			"root":"Polyangiaceae"
+		},
+		{
+			"root":"Chondromyces"
+		},
+		{
+			"root":"Chondromyces apiculatus"
+		},
+		{
+			"root":"Chondromyces crocatus"
+		},
+		{
+			"root":"Nannocystis"
+		},
+		{
+			"root":"Nannocystis exedens"
+		},
+		{
+			"root":"Polyangium"
+		},
+		{
+			"root":"Sorangium cellulosum"
+		},
+		{
+			"root":"Polyangium sp."
+		},
+		{
+			"root":"Vitreoscilla"
+		},
+		{
+			"root":"Vitreoscilla sp."
+		},
+		{
+			"root":"Vitreoscilla stercoraria"
+		},
+		{
+			"root":"Vitreoscilla beggiatoides"
+		},
+		{
+			"root":"Vitreoscilla filiformis"
+		},
+		{
+			"root":"Herpetosiphon"
+		},
+		{
+			"root":"Herpetosiphon aurantiacus"
+		},
+		{
+			"root":"Lysobacter"
+		},
+		{
+			"root":"Lysobacter enzymogenes"
+		},
+		{
+			"root":"Simonsiella"
+		},
+		{
+			"root":"Scheibenbakterien Muller 1911;Scheibenbakterien;Simonsiella muelleri"
+		},
+		{
+			"root":"Caulobacter"
+		},
+		{
+			"root":"Caulobacter sp."
+		},
+		{
+			"root":"Hyphomicrobium"
+		},
+		{
+			"root":"Hyphomicrobium sp."
+		},
+		{
+			"root":"Hyphomicrobium vulgare"
+		},
+		{
+			"root":"Hyphomicrobium methylovorum"
+		},
+		{
+			"root":"Hyphomonas"
+		},
+		{
+			"root":"Hyphomonas jannaschiana"
+		},
+		{
+			"root":"Hyphomonas sp."
+		},
+		{
+			"root":"Leptothrix"
+		},
+		{
+			"root":"Leptothrix discophora"
+		},
+		{
+			"root":"Stella"
+		},
+		{
+			"root":"Stella humosa"
+		},
+		{
+			"root":"Gallionella"
+		},
+		{
+			"root":"Gallionella ferruginea"
+		},
+		{
+			"root":"Ancylobacter"
+		},
+		{
+			"root":"Ancylobacter aquaticus"
+		},
+		{
+			"root":"Flectobacillus"
+		},
+		{
+			"root":"Polaribacter glomeratus"
+		},
+		{
+			"root":"Flectobacillus major"
+		},
+		{
+			"root":"Cyclobacterium marinum"
+		},
+		{
+			"root":"Runella"
+		},
+		{
+			"root":"Runella slithyformis"
+		},
+		{
+			"root":"Spirosoma"
+		},
+		{
+			"root":"Spirosoma linguale"
+		},
+		{
+			"root":"Blastobacter"
+		},
+		{
+			"root":"Xanthobacter viscosus"
+		},
+		{
+			"root":"Planctomycetales"
+		},
+		{
+			"root":"Gemmata"
+		},
+		{
+			"root":"Gemmata obscuriglobus"
+		},
+		{
+			"root":"Pirellula sp."
+		},
+		{
+			"root":"Planctomyces"
+		},
+		{
+			"root":"Rubinisphaera brasiliensis"
+		},
+		{
+			"root":"Planctopirus limnophila"
+		},
+		{
+			"root":"Gimesia maris"
+		},
+		{
+			"root":"Pirellula"
+		},
+		{
+			"root":"Blastopirellula marina"
+		},
+		{
+			"root":"Pirellula staleyi"
+		},
+		{
+			"root":"Planctomycetaceae"
+		},
+		{
+			"root":"Isosphaera"
+		},
+		{
+			"root":"Isosphaera pallida"
+		},
+		{
+			"root":"Tuberoidobacter"
+		},
+		{
+			"root":"Tuberoidobacter mutans"
+		},
+		{
+			"root":"Methylocystis"
+		},
+		{
+			"root":"Methylocystis parvus"
+		},
+		{
+			"root":"Spirochaetales"
+		},
+		{
+			"root":"Spirochaetaceae"
+		},
+		{
+			"root":"Borrelia"
+		},
+		{
+			"root":"Borreliella burgdorferi;Lyme disease spirochete"
+		},
+		{
+			"root":"Borrelia hermsii"
+		},
+		{
+			"root":"Borrelia parkeri"
+		},
+		{
+			"root":"Borrelia turicatae"
+		},
+		{
+			"root":"Borrelia anserina"
+		},
+		{
+			"root":"Borrelia coriaceae"
+		},
+		{
+			"root":"Borrelia sp."
+		},
+		{
+			"root":"Spirochaeta"
+		},
+		{
+			"root":"Spirochaeta aurantia"
+		},
+		{
+			"root":"Sediminispirochaeta bajacaliforniensis"
+		},
+		{
+			"root":"Spirochaeta halophila"
+		},
+		{
+			"root":"Spirochaeta isovalerica"
+		},
+		{
+			"root":"Oceanispirochaeta litoralis"
+		},
+		{
+			"root":"Treponema stenostreptum"
+		},
+		{
+			"root":"Spirochaeta thermophila"
+		},
+		{
+			"root":"Treponema zuelzerae"
+		},
+		{
+			"root":"Treponema"
+		},
+		{
+			"root":"Treponema denticola"
+		},
+		{
+			"root":"Brachyspira hyodysenteriae"
+		},
+		{
+			"root":"Treponema pallidum"
+		},
+		{
+			"root":"syphilis treponeme;Treponema pallidum subsp. pallidum"
+		},
+		{
+			"root":"Treponema phagedenis"
+		},
+		{
+			"root":"Treponema bryantii"
+		},
+		{
+			"root":"Treponema pectinovorum"
+		},
+		{
+			"root":"Treponema saccharophilum"
+		},
+		{
+			"root":"Treponema sp."
+		},
+		{
+			"root":"Treponema succinifaciens"
+		},
+		{
+			"root":"Treponema pallidum subsp. pertenue;yaws treponeme"
+		},
+		{
+			"root":"Leptospiraceae"
+		},
+		{
+			"root":"Leptospira"
+		},
+		{
+			"root":"Leptospira biflexa"
+		},
+		{
+			"root":"Leptospira interrogans"
+		},
+		{
+			"root":"Leptospira borgpetersenii"
+		},
+		{
+			"root":"Leptospira interrogans serovar Hardjo"
+		},
+		{
+			"root":"Leptospira sp."
+		},
+		{
+			"root":"Leptospirillum"
+		},
+		{
+			"root":"Leptospirillum ferrooxidans"
+		},
+		{
+			"root":"Leptospirillum sp."
+		},
+		{
+			"root":"Leptonema illini"
+		},
+		{
+			"root":"wall-less spirochete"
+		},
+		{
+			"root":"Aquaspirillum"
+		},
+		{
+			"root":"Magnetospirillum magnetotacticum"
+		},
+		{
+			"root":"Novispirillum itersonii"
+		},
+		{
+			"root":"Aquaspirillum serpens"
+		},
+		{
+			"root":"Azospirillum"
+		},
+		{
+			"root":"Azospirillum brasilense"
+		},
+		{
+			"root":"Azospirillum lipoferum"
+		},
+		{
+			"root":"Campylobacter"
+		},
+		{
+			"root":"Campylobacter coli"
+		},
+		{
+			"root":"Campylobacter fetus"
+		},
+		{
+			"root":"Campylobacter jejuni"
+		},
+		{
+			"root":"Campylobacter hyointestinalis"
+		},
+		{
+			"root":"Campylobacter concisus"
+		},
+		{
+			"root":"Campylobacter curvus"
+		},
+		{
+			"root":"Campylobacter lari"
+		},
+		{
+			"root":"Campylobacter mucosalis"
+		},
+		{
+			"root":"Campylobacter rectus"
+		},
+		{
+			"root":"Campylobacter showae"
+		},
+		{
+			"root":"Campylobacter sp."
+		},
+		{
+			"root":"Campylobacter sputorum"
+		},
+		{
+			"root":"Campylobacter jejuni-like bacterium"
+		},
+		{
+			"root":"Helicobacter"
+		},
+		{
+			"root":"Helicobacter pylori"
+		},
+		{
+			"root":"Helicobacter sp. CLO-3"
+		},
+		{
+			"root":"Helicobacter acinonychis"
+		},
+		{
+			"root":"Helicobacter cinaedi"
+		},
+		{
+			"root":"Helicobacter felis"
+		},
+		{
+			"root":"Helicobacter fennelliae"
+		},
+		{
+			"root":"Helicobacter muridarum"
+		},
+		{
+			"root":"Helicobacter mustelae"
+		},
+		{
+			"root":"Helicobacter sp."
+		},
+		{
+			"root":"Achromobacter"
+		},
+		{
+			"root":"Achromobacter cycloclastes"
+		},
+		{
+			"root":"Achromobacter lyticus"
+		},
+		{
+			"root":"Alteromonas"
+		},
+		{
+			"root":"Pseudoalteromonas carrageenovora"
+		},
+		{
+			"root":"Pseudoalteromonas haloplanktis"
+		},
+		{
+			"root":"Alteromonas sp."
+		},
+		{
+			"root":"Brucella"
+		},
+		{
+			"root":"Brucella abortus"
+		},
+		{
+			"root":"Brucella ovis"
+		},
+		{
+			"root":"Flavobacterium"
+		},
+		{
+			"root":"Elizabethkingia meningoseptica"
+		},
+		{
+			"root":"Flavobacterium sp."
+		},
+		{
+			"root":"Flavobacterium sp. 141-8"
+		},
+		{
+			"root":"Flavobacterium sp. SC12154"
+		},
+		{
+			"root":"Flavobacterium sp. U-188"
+		},
+		{
+			"root":"Planomicrobium okeanokoites"
+		},
+		{
+			"root":"Flavobacterium aquatile"
+		},
+		{
+			"root":"Chryseobacterium balustinum"
+		},
+		{
+			"root":"Empedobacter brevis"
+		},
+		{
+			"root":"Terrimonas ferruginea"
+		},
+		{
+			"root":"Chryseobacterium gleum"
+		},
+		{
+			"root":"Psychroflexus gondwanensis"
+		},
+		{
+			"root":"Halomonas halmophila"
+		},
+		{
+			"root":"Chryseobacterium indologenes"
+		},
+		{
+			"root":"Chryseobacterium indoltheticum"
+		},
+		{
+			"root":"[Flavobacterium] lutescens"
+		},
+		{
+			"root":"Myroides odoratus"
+		},
+		{
+			"root":"Sphingobacterium spiritivorum"
+		},
+		{
+			"root":"Sphingobacterium thalpophilum"
+		},
+		{
+			"root":"Flavobacterium sp. K172"
+		},
+		{
+			"root":"Francisella"
+		},
+		{
+			"root":"Francisella tularensis"
+		},
+		{
+			"root":"Francisella tularensis subsp. novicida"
+		},
+		{
+			"root":"Paracoccus"
+		},
+		{
+			"root":"Paracoccus denitrificans"
+		},
+		{
+			"root":"Paracoccus sp."
+		},
+		{
+			"root":"Thermus"
+		},
+		{
+			"root":"Thermus aquaticus"
+		},
+		{
+			"root":"Thermus caldophilus"
+		},
+		{
+			"root":"Thermus thermophilus"
+		},
+		{
+			"root":"Thermus sp."
+		},
+		{
+			"root":"Thermus filiformis"
+		},
+		{
+			"root":"Meiothermus ruber"
+		},
+		{
+			"root":"Xanthobacter"
+		},
+		{
+			"root":"Xanthobacter autotrophicus"
+		},
+		{
+			"root":"Xanthobacter flavus"
+		},
+		{
+			"root":"Comamonas"
+		},
+		{
+			"root":"Comamonas testosteroni"
+		},
+		{
+			"root":"Pseudomonas"
+		},
+		{
+			"root":"Pseudomonas aeruginosa"
+		},
+		{
+			"root":"Pseudoalteromonas atlantica"
+		},
+		{
+			"root":"Pseudomonas carboxydohydrogena"
+		},
+		{
+			"root":"Burkholderia cepacia"
+		},
+		{
+			"root":"Brevundimonas diminuta"
+		},
+		{
+			"root":"Pseudomonas fluorescens"
+		},
+		{
+			"root":"Pseudomonas fragi"
+		},
+		{
+			"root":"Hydrogenophilus thermoluteolus"
+		},
+		{
+			"root":"Pseudomonas marginalis"
+		},
+		{
+			"root":"Pseudomonas mendocina"
+		},
+		{
+			"root":"Pseudomonas oleovorans"
+		},
+		{
+			"root":"Pseudomonas putida"
+		},
+		{
+			"root":"Pelomonas saccharophila"
+		},
+		{
+			"root":"Ralstonia solanacearum"
+		},
+		{
+			"root":"Pseudomonas sp."
+		},
+		{
+			"root":"Pseudomonas sp. KKS102"
+		},
+		{
+			"root":"Pseudomonas sp. PG2982"
+		},
+		{
+			"root":"Pseudomonas sp. SE83"
+		},
+		{
+			"root":"Pseudomonas sp. KWI-56"
+		},
+		{
+			"root":"Pseudomonas sp. RS-16"
+		},
+		{
+			"root":"Pseudomonas sp. ATCC29598"
+		},
+		{
+			"root":"Pseudomonas sp. NK87"
+		},
+		{
+			"root":"Pseudomonas sp. ATCC19151"
+		},
+		{
+			"root":"Pseudomonas stutzeri"
+		},
+		{
+			"root":"Pseudomonas syringae"
+		},
+		{
+			"root":"Pseudomonas savastanoi pv. glycinea"
+		},
+		{
+			"root":"Pseudomonas savastanoi pv. phaseolicola"
+		},
+		{
+			"root":"Pseudomonas syringae pv. syringae"
+		},
+		{
+			"root":"Pseudomonas amygdali pv. tabaci"
+		},
+		{
+			"root":"Pseudomonas syringae pv. tomato"
+		},
+		{
+			"root":"Ralstonia pickettii"
+		},
+		{
+			"root":"Pseudomonas pseudoalcaligenes"
+		},
+		{
+			"root":"Pseudomonas chlororaphis subsp. chlororaphis"
+		},
+		{
+			"root":"Pseudomonas fluorescens bv. C"
+		},
+		{
+			"root":"Burkholderia glumae"
+		},
+		{
+			"root":"Xanthomonas"
+		},
+		{
+			"root":"Xanthomonas campestris"
+		},
+		{
+			"root":"Xanthomonas campestris pv. campestris"
+		},
+		{
+			"root":"Xanthomonas translucens"
+		},
+		{
+			"root":"Xanthomonas citri"
+		},
+		{
+			"root":"Xanthomonas oryzae"
+		},
+		{
+			"root":"Zoogloea"
+		},
+		{
+			"root":"Zoogloea ramigera"
+		},
+		{
+			"root":"Azotobacter group"
+		},
+		{
+			"root":"Azotobacter"
+		},
+		{
+			"root":"Azotobacter chroococcum"
+		},
+		{
+			"root":"Azotobacter vinelandii"
+		},
+		{
+			"root":"Azotobacter chroococcum (strain mcd 1)"
+		},
+		{
+			"root":"rhizobacteria;Rhizobiales"
+		},
+		{
+			"root":"Agrobacterium"
+		},
+		{
+			"root":"Agrobacterium tumefaciens"
+		},
+		{
+			"root":"Agrobacterium rhizogenes"
+		},
+		{
+			"root":"Agrobacterium sp."
+		},
+		{
+			"root":"Agrobacterium tumefaciens (strain apple 185)"
+		},
+		{
+			"root":"Agrobacterium tumefaciens (strain B2A)"
+		},
+		{
+			"root":"Agrobacterium tumefaciens (strain II CHRYS)"
+		},
+		{
+			"root":"Agrobacterium vitis"
+		},
+		{
+			"root":"Bradyrhizobium"
+		},
+		{
+			"root":"Bradyrhizobium japonicum"
+		},
+		{
+			"root":"Bradyrhizobium sp."
+		},
+		{
+			"root":"Bradyrhizobium sp. ANU 289"
+		},
+		{
+			"root":"Bradyrhizobium sp. RP501"
+		},
+		{
+			"root":"Rhizobium"
+		},
+		{
+			"root":"Sinorhizobium fredii"
+		},
+		{
+			"root":"Mesorhizobium loti"
+		},
+		{
+			"root":"Sinorhizobium meliloti"
+		},
+		{
+			"root":"Rhizobium leguminosarum"
+		},
+		{
+			"root":"Rhizobium leguminosarum bv. phaseoli"
+		},
+		{
+			"root":"Rhizobium leguminosarum bv. trifolii"
+		},
+		{
+			"root":"Rhizobium leguminosarum bv. viciae"
+		},
+		{
+			"root":"Rhizobium sp."
+		},
+		{
+			"root":"Rhizobium sp. MPIK3030"
+		},
+		{
+			"root":"Sinorhizobium fredii NGR234"
+		},
+		{
+			"root":"Rhizobium phaseoli"
+		},
+		{
+			"root":"Rhizobium tropici"
+		},
+		{
+			"root":"Neorhizobium galegae"
+		},
+		{
+			"root":"Rhizobium sp. IRc78"
+		},
+		{
+			"root":"Methylococcaceae"
+		},
+		{
+			"root":"Methylobacillus"
+		},
+		{
+			"root":"Methylobacillus flagellatus"
+		},
+		{
+			"root":"Methylobacillus glycogenes"
+		},
+		{
+			"root":"Methylobacterium"
+		},
+		{
+			"root":"Methylobacterium extorquens"
+		},
+		{
+			"root":"Methylobacterium sp."
+		},
+		{
+			"root":"Methylobacterium organophilum"
+		},
+		{
+			"root":"Methylobacterium specialis"
+		},
+		{
+			"root":"Methylococcus"
+		},
+		{
+			"root":"Methylococcus capsulatus"
+		},
+		{
+			"root":"Methylobacter luteus"
+		},
+		{
+			"root":"Methylomonas"
+		},
+		{
+			"root":"Methylomonas clara"
+		},
+		{
+			"root":"Methylomonas sp."
+		},
+		{
+			"root":"Methylomonas methanica"
+		},
+		{
+			"root":"Methylomonas methylovora"
+		},
+		{
+			"root":"Methylomonas rubra"
+		},
+		{
+			"root":"Methylosinus"
+		},
+		{
+			"root":"Methylosinus trichosporium"
+		},
+		{
+			"root":"Methylosinus sp."
+		},
+		{
+			"root":"Methylosinus sporium"
+		},
+		{
+			"root":"Methylobacter"
+		},
+		{
+			"root":"Methylobacter capsulatus"
+		},
+		{
+			"root":"Acetobacteraceae"
+		},
+		{
+			"root":"Acetobacter"
+		},
+		{
+			"root":"Acetobacter aceti"
+		},
+		{
+			"root":"Komagataeibacter hansenii"
+		},
+		{
+			"root":"Acidomonas methanolica"
+		},
+		{
+			"root":"Acetobacter pasteurianus"
+		},
+		{
+			"root":"Gluconacetobacter polyoxogenes"
+		},
+		{
+			"root":"Acetobacter sp."
+		},
+		{
+			"root":"Gluconobacter"
+		},
+		{
+			"root":"Gluconobacter oxydans"
+		},
+		{
+			"root":"Legionellaceae"
+		},
+		{
+			"root":"Legionella"
+		},
+		{
+			"root":"Legionella pneumophila"
+		},
+		{
+			"root":"Fluoribacter bozemanae"
+		},
+		{
+			"root":"Legionella erythra"
+		},
+		{
+			"root":"Legionella hackeliae"
+		},
+		{
+			"root":"Legionella longbeachae"
+		},
+		{
+			"root":"Tatlockia micdadei"
+		},
+		{
+			"root":"Legionella spiritensis"
+		},
+		{
+			"root":"Legionella feeleii"
+		},
+		{
+			"root":"Legionella israelensis"
+		},
+		{
+			"root":"Legionella jamestowniensis"
+		},
+		{
+			"root":"Legionella jordanis"
+		},
+		{
+			"root":"Legionella rubrilucens"
+		},
+		{
+			"root":"Legionella sp."
+		},
+		{
+			"root":"Legionella steigerwaltii"
+		},
+		{
+			"root":"Fluoribacter"
+		},
+		{
+			"root":"Fluoribacter dumoffii"
+		},
+		{
+			"root":"Fluoribacter gormanii"
+		},
+		{
+			"root":"Tatlockia"
+		},
+		{
+			"root":"Legionella maceachernii"
+		},
+		{
+			"root":"Moraxellaceae"
+		},
+		{
+			"root":"Acinetobacter"
+		},
+		{
+			"root":"Acinetobacter baumannii"
+		},
+		{
+			"root":"Acinetobacter calcoaceticus"
+		},
+		{
+			"root":"Acinetobacter sp."
+		},
+		{
+			"root":"Acinetobacter glutaminasificans"
+		},
+		{
+			"root":"Moraxella"
+		},
+		{
+			"root":"Moraxella bovis"
+		},
+		{
+			"root":"Moraxella lacunata"
+		},
+		{
+			"root":"Moraxella nonliquefaciens"
+		},
+		{
+			"root":"Moraxella sp."
+		},
+		{
+			"root":"Moraxella catarrhalis"
+		},
+		{
+			"root":"Neisseriaceae"
+		},
+		{
+			"root":"Neisseria"
+		},
+		{
+			"root":"Neisseria cinerea"
+		},
+		{
+			"root":"Neisseria flavescens"
+		},
+		{
+			"root":"Neisseria gonorrhoeae"
+		},
+		{
+			"root":"Neisseria lactamica"
+		},
+		{
+			"root":"Neisseria meningitidis"
+		},
+		{
+			"root":"Neisseria mucosa"
+		},
+		{
+			"root":"Neisseria polysaccharea"
+		},
+		{
+			"root":"Neisseria sicca"
+		},
+		{
+			"root":"Neisseria meningitidis serogroup B"
+		},
+		{
+			"root":"Neisseria animalis"
+		},
+		{
+			"root":"Neisseria canis"
+		},
+		{
+			"root":"Bergeriella denitrificans"
+		},
+		{
+			"root":"Neisseria elongata"
+		},
+		{
+			"root":"Neisseria macacae"
+		},
+		{
+			"root":"Psychrobacter"
+		},
+		{
+			"root":"Psychrobacter immobilis"
+		},
+		{
+			"root":"Thermomicrobium"
+		},
+		{
+			"root":"Thermomicrobium roseum"
+		},
+		{
+			"root":"Kingella denitrificans"
+		},
+		{
+			"root":"Kingella kingae"
+		},
+		{
+			"root":"Kingella oralis"
+		},
+		{
+			"root":"Alcaligenaceae"
+		},
+		{
+			"root":"Alcaligenes"
+		},
+		{
+			"root":"Alcaligenes faecalis"
+		},
+		{
+			"root":"Alcaligenes sp."
+		},
+		{
+			"root":"Alcaligenes hydrogenophilus"
+		},
+		{
+			"root":"Bordetella"
+		},
+		{
+			"root":"Bordetella bronchiseptica"
+		},
+		{
+			"root":"Bordetella parapertussis"
+		},
+		{
+			"root":"Bordetella pertussis"
+		},
+		{
+			"root":"Bordetella avium"
+		},
+		{
+			"root":"Acidiphilium"
+		},
+		{
+			"root":"Acidiphilium angustum"
+		},
+		{
+			"root":"Acidiphilium cryptum"
+		},
+		{
+			"root":"Acidocella facilis"
+		},
+		{
+			"root":"Acidiphilium rubrum"
+		},
+		{
+			"root":"Acidiphilium sp."
+		},
+		{
+			"root":"Ochrobactrum"
+		},
+		{
+			"root":"Ochrobactrum anthropi"
+		},
+		{
+			"root":"Polaribacter irgensii"
+		},
+		{
+			"root":"Beijerinckia"
+		},
+		{
+			"root":"Beijerinckia indica"
+		},
+		{
+			"root":"Chromobacterium"
+		},
+		{
+			"root":"Chromobacterium violaceum"
+		},
+		{
+			"root":"Iodobacter fluviatilis"
+		},
+		{
+			"root":"Eikenella"
+		},
+		{
+			"root":"Eikenella corrodens"
+		},
+		{
+			"root":"Eikenella sp."
+		},
+		{
+			"root":"Zymomonas"
+		},
+		{
+			"root":"Zymomonas mobilis"
+		},
+		{
+			"root":"Enterobacteriaceae"
+		},
+		{
+			"root":"Citrobacter"
+		},
+		{
+			"root":"Citrobacter koseri"
+		},
+		{
+			"root":"Citrobacter freundii"
+		},
+		{
+			"root":"Enterobacter"
+		},
+		{
+			"root":"Klebsiella aerogenes"
+		},
+		{
+			"root":"Pantoea agglomerans"
+		},
+		{
+			"root":"Enterobacter cloacae"
+		},
+		{
+			"root":"Erwinia"
+		},
+		{
+			"root":"Erwinia amylovora"
+		},
+		{
+			"root":"Pantoea ananatis"
+		},
+		{
+			"root":"Pectobacterium carotovorum"
+		},
+		{
+			"root":"Pectobacterium carotovorum subsp. carotovorum"
+		},
+		{
+			"root":"Dickeya chrysanthemi"
+		},
+		{
+			"root":"Erwinia sp."
+		},
+		{
+			"root":"Escherichia"
+		},
+		{
+			"root":"E. coli;Escherichia coli"
+		},
+		{
+			"root":"Shimwellia blattae"
+		},
+		{
+			"root":"Escherichia fergusonii"
+		},
+		{
+			"root":"Atlantibacter hermannii"
+		},
+		{
+			"root":"Pseudescherichia vulneris"
+		},
+		{
+			"root":"Hafnia"
+		},
+		{
+			"root":"Hafnia alvei"
+		},
+		{
+			"root":"Klebsiella"
+		},
+		{
+			"root":"Klebsiella oxytoca"
+		},
+		{
+			"root":"Klebsiella pneumoniae"
+		},
+		{
+			"root":"Klebsiella pneumoniae subsp. ozaenae"
+		},
+		{
+			"root":"Raoultella planticola"
+		},
+		{
+			"root":"Klebsiella sp."
+		},
+		{
+			"root":"Raoultella terrigena"
+		},
+		{
+			"root":"Kluyvera"
+		},
+		{
+			"root":"Kluyvera cryocrescens"
+		},
+		{
+			"root":"Morganella"
+		},
+		{
+			"root":"Morganella morganii"
+		},
+		{
+			"root":"Proteus"
+		},
+		{
+			"root":"Proteus mirabilis"
+		},
+		{
+			"root":"Proteus vulgaris"
+		},
+		{
+			"root":"Providencia"
+		},
+		{
+			"root":"Providencia rettgeri"
+		},
+		{
+			"root":"Providencia stuartii"
+		},
+		{
+			"root":"Providencia sp."
+		},
+		{
+			"root":"Salmonella"
+		},
+		{
+			"root":"Salmonella enterica subsp. enterica serovar Gallinarum"
+		},
+		{
+			"root":"Salmonella enterica subsp. enterica serovar Infantis"
+		},
+		{
+			"root":"Salmonella enterica subsp. enterica serovar Muenchen"
+		},
+		{
+			"root":"Salmonella enterica subsp. enterica serovar Potsdam"
+		},
+		{
+			"root":"Salmonella enterica subsp. enterica serovar Rubislaw"
+		},
+		{
+			"root":"Salmonella sp."
+		},
+		{
+			"root":"Salmonella enterica subsp. enterica serovar Thompson"
+		},
+		{
+			"root":"Salmonella enterica subsp. enterica serovar Gallinarum/pullorum"
+		},
+		{
+			"root":"Salmonella enterica subsp. enterica serovar Pullorum"
+		},
+		{
+			"root":"Salmonella enterica subsp. enterica serovar Abortusequi"
+		},
+		{
+			"root":"Salmonella enterica subsp. enterica serovar Abortus"
+		},
+		{
+			"root":"Salmonella enterica subsp. enterica serovar Heidelberg"
+		},
+		{
+			"root":"Salmonella enterica subsp. enterica serovar Ordonez"
+		},
+		{
+			"root":"Serratia"
+		},
+		{
+			"root":"Serratia liquefaciens"
+		},
+		{
+			"root":"Serratia marcescens"
+		},
+		{
+			"root":"Serratia sp."
+		},
+		{
+			"root":"Serratia sp. E-15"
+		},
+		{
+			"root":"Serratia odorifera"
+		},
+		{
+			"root":"Shigella"
+		},
+		{
+			"root":"Shigella boydii"
+		},
+		{
+			"root":"Shigella dysenteriae"
+		},
+		{
+			"root":"Shigella flexneri"
+		},
+		{
+			"root":"Shigella sonnei"
+		},
+		{
+			"root":"Shigella sp."
+		},
+		{
+			"root":"Xenorhabdus"
+		},
+		{
+			"root":"Xenorhabdus nematophila"
+		},
+		{
+			"root":"Yersinia"
+		},
+		{
+			"root":"Yersinia enterocolitica"
+		},
+		{
+			"root":"Yersinia intermedia"
+		},
+		{
+			"root":"Yersinia pestis"
+		},
+		{
+			"root":"Yersinia pseudotuberculosis"
+		},
+		{
+			"root":"Yersinia bercovieri"
+		},
+		{
+			"root":"Edwardsiella"
+		},
+		{
+			"root":"Edwardsiella tarda"
+		},
+		{
+			"root":"Arsenophonus"
+		},
+		{
+			"root":"Arsenophonus nasoniae;son-killer infecting Nasonia vitripennis"
+		},
+		{
+			"root":"Vibrionaceae"
+		},
+		{
+			"root":"Aeromonas"
+		},
+		{
+			"root":"Aeromonas hydrophila"
+		},
+		{
+			"root":"Aeromonas salmonicida"
+		},
+		{
+			"root":"Aeromonas sobria"
+		},
+		{
+			"root":"Aeromonas sp."
+		},
+		{
+			"root":"Aeromonas caviae"
+		},
+		{
+			"root":"Aeromonas eucrenophila"
+		},
+		{
+			"root":"Aeromonas jandaei"
+		},
+		{
+			"root":"Aeromonas media"
+		},
+		{
+			"root":"Aeromonas schubertii"
+		},
+		{
+			"root":"Aeromonas veronii"
+		},
+		{
+			"root":"Aeromonas allosaccharophila"
+		},
+		{
+			"root":"Photobacterium"
+		},
+		{
+			"root":"Photobacterium leiognathi subsp. leiognathi"
+		},
+		{
+			"root":"Photobacterium phosphoreum"
+		},
+		{
+			"root":"Photobacterium sp."
+		},
+		{
+			"root":"Photobacterium angustum"
+		},
+		{
+			"root":"Vibrio"
+		},
+		{
+			"root":"Vibrio alginolyticus"
+		},
+		{
+			"root":"Vibrio alginolyticus chemovar iophagus"
+		},
+		{
+			"root":"Vibrio cholerae"
+		},
+		{
+			"root":"Aliivibrio fischeri"
+		},
+		{
+			"root":"Vibrio harveyi"
+		},
+		{
+			"root":"Vibrio parahaemolyticus"
+		},
+		{
+			"root":"Vibrio proteolyticus"
+		},
+		{
+			"root":"Vibrio vulnificus"
+		},
+		{
+			"root":"Grimontia hollisae"
+		},
+		{
+			"root":"Vibrio mimicus"
+		},
+		{
+			"root":"Vibrio cincinnatiensis"
+		},
+		{
+			"root":"Vibrio fluvialis"
+		},
+		{
+			"root":"Vibrio sp."
+		},
+		{
+			"root":"Vibrio adaptatus"
+		},
+		{
+			"root":"Vibrio campbellii"
+		},
+		{
+			"root":"Vibrio cyclosites"
+		},
+		{
+			"root":"Vibrio diazotrophicus"
+		},
+		{
+			"root":"Vibrio cholerae O1 biovar El Tor"
+		},
+		{
+			"root":"Vibrio gazogenes"
+		},
+		{
+			"root":"Aliivibrio logei"
+		},
+		{
+			"root":"Vibrio mediterranei"
+		},
+		{
+			"root":"Vibrio natriegens"
+		},
+		{
+			"root":"Vibrio nereis"
+		},
+		{
+			"root":"magnetite-containing magnetic coccus"
+		},
+		{
+			"root":"Plesiomonas"
+		},
+		{
+			"root":"Plesiomonas shigelloides"
+		},
+		{
+			"root":"Cryptosaras couesi symbiont"
+		},
+		{
+			"root":"Melanocetus johnsoni symbiont"
+		},
+		{
+			"root":"Pasteurellaceae"
+		},
+		{
+			"root":"Actinobacillus"
+		},
+		{
+			"root":"Aggregatibacter actinomycetemcomitans"
+		},
+		{
+			"root":"Actinobacillus pleuropneumoniae"
+		},
+		{
+			"root":"Actinobacillus suis"
+		},
+		{
+			"root":"Actinobacillus capsulatus"
+		},
+		{
+			"root":"Actinobacillus equuli"
+		},
+		{
+			"root":"Actinobacillus hominis"
+		},
+		{
+			"root":"Actinobacillus lignieresii"
+		},
+		{
+			"root":"Actinobacillus salpingitidis"
+		},
+		{
+			"root":"Actinobacillus seminis"
+		},
+		{
+			"root":"Actinobacillus ureae"
+		},
+		{
+			"root":"Haemophilus"
+		},
+		{
+			"root":"Haemophilus influenzae biotype aegyptius"
+		},
+		{
+			"root":"Haemophilus haemolyticus"
+		},
+		{
+			"root":"Haemophilus influenzae"
+		},
+		{
+			"root":"Avibacterium paragallinarum"
+		},
+		{
+			"root":"Haemophilus parainfluenzae"
+		},
+		{
+			"root":"[Haemophilus] ducreyi"
+		},
+		{
+			"root":"Histophilus somni"
+		},
+		{
+			"root":"Aggregatibacter aphrophilus"
+		},
+		{
+			"root":"Haemophilus haemoglobinophilus"
+		},
+		{
+			"root":"Haemophilus paracuniculus"
+		},
+		{
+			"root":"Haemophilus parahaemolyticus"
+		},
+		{
+			"root":"Haemophilus paraphrohaemolyticus"
+		},
+		{
+			"root":"Glaesserella parasuis"
+		},
+		{
+			"root":"Aggregatibacter segnis"
+		},
+		{
+			"root":"Haemophilus sp."
+		},
+		{
+			"root":"Haemophilus taxon C"
+		},
+		{
+			"root":"Pasteurella"
+		},
+		{
+			"root":"Pasteurella multocida"
+		},
+		{
+			"root":"[Pasteurella] aerogenes"
+		},
+		{
+			"root":"Gallibacterium anatis"
+		},
+		{
+			"root":"Avibacterium avium"
+		},
+		{
+			"root":"Pasteurella bettyae"
+		},
+		{
+			"root":"Pasteurella canis"
+		},
+		{
+			"root":"Pasteurella dagmatis"
+		},
+		{
+			"root":"Avibacterium gallinarum"
+		},
+		{
+			"root":"Pasteurella langaaensis"
+		},
+		{
+			"root":"[Pasteurella] mairii"
+		},
+		{
+			"root":"Rodentibacter pneumotropicus"
+		},
+		{
+			"root":"Pasteurella sp."
+		},
+		{
+			"root":"Pasteurella stomatis"
+		},
+		{
+			"root":"Pasteurella testudinis"
+		},
+		{
+			"root":"Avibacterium volantium"
+		},
+		{
+			"root":"Rickettsiales;rickettsias"
+		},
+		{
+			"root":"Anaplasma"
+		},
+		{
+			"root":"Anaplasma centrale"
+		},
+		{
+			"root":"Anaplasma marginale"
+		},
+		{
+			"root":"Bartonellaceae"
+		},
+		{
+			"root":"Bartonella"
+		},
+		{
+			"root":"Bartonella bacilliformis"
+		},
+		{
+			"root":"Rickettsiaceae"
+		},
+		{
+			"root":"Coxiella"
+		},
+		{
+			"root":"Coxiella burnetii"
+		},
+		{
+			"root":"Ehrlichia ruminantium;heartwater rickettsia"
+		},
+		{
+			"root":"Rickettsia"
+		},
+		{
+			"root":"Rickettsia conorii"
+		},
+		{
+			"root":"Rickettsia prowazekii"
+		},
+		{
+			"root":"Rickettsia rickettsii"
+		},
+		{
+			"root":"Orientia tsutsugamushi"
+		},
+		{
+			"root":"Rickettsia typhi"
+		},
+		{
+			"root":"agent of rickettsialpox;Rickettsia akari;rickettsialpox"
+		},
+		{
+			"root":"Rickettsia australis"
+		},
+		{
+			"root":"Rickettsia canadensis"
+		},
+		{
+			"root":"Rickettsia sp."
+		},
+		{
+			"root":"BEV proteobacterium"
+		},
+		{
+			"root":"Bartonella quintana"
+		},
+		{
+			"root":"Bartonella elizabethae"
+		},
+		{
+			"root":"Chlamydiaceae"
+		},
+		{
+			"root":"Chlamydia"
+		},
+		{
+			"root":"Chlamydia trachomatis"
+		},
+		{
+			"root":"Bacteroidaceae"
+		},
+		{
+			"root":"Bacteroides"
+		},
+		{
+			"root":"Bacteroides fragilis"
+		},
+		{
+			"root":"Bacteroides thetaiotaomicron"
+		},
+		{
+			"root":"Bacteroides uniformis"
+		},
+		{
+			"root":"Bacteroides vulgatus"
+		},
+		{
+			"root":"Parabacteroides distasonis"
+		},
+		{
+			"root":"Campylobacter gracilis"
+		},
+		{
+			"root":"Sebaldella termitidis"
+		},
+		{
+			"root":"Campylobacter ureolyticus"
+		},
+		{
+			"root":"Butyrivibrio"
+		},
+		{
+			"root":"Butyrivibrio fibrisolvens"
+		},
+		{
+			"root":"Fibrobacter"
+		},
+		{
+			"root":"Fibrobacter succinogenes"
+		},
+		{
+			"root":"Fibrobacter succinogenes subsp. succinogenes"
+		},
+		{
+			"root":"Porphyromonas"
+		},
+		{
+			"root":"Porphyromonas gingivalis"
+		},
+		{
+			"root":"Prevotella"
+		},
+		{
+			"root":"Prevotella ruminicola"
+		},
+		{
+			"root":"Prevotella loescheii"
+		},
+		{
+			"root":"Roseburia"
+		},
+		{
+			"root":"Roseburia cecicola"
+		},
+		{
+			"root":"Wolinella"
+		},
+		{
+			"root":"Wolinella succinogenes"
+		},
+		{
+			"root":"Oxalobacter"
+		},
+		{
+			"root":"Oxalobacter formigenes"
+		},
+		{
+			"root":"Fusobacterium"
+		},
+		{
+			"root":"Fusobacterium gonidiaformans"
+		},
+		{
+			"root":"Fusobacterium mortiferum"
+		},
+		{
+			"root":"Fusobacterium nucleatum"
+		},
+		{
+			"root":"Fusobacterium perfoetens"
+		},
+		{
+			"root":"Faecalibacterium prausnitzii"
+		},
+		{
+			"root":"Fusobacterium russii"
+		},
+		{
+			"root":"Fusobacterium simiae"
+		},
+		{
+			"root":"Fusobacterium varium"
+		},
+		{
+			"root":"Fusobacterium necrogenes"
+		},
+		{
+			"root":"Fusobacterium necrophorum"
+		},
+		{
+			"root":"Fusobacterium periodonticum"
+		},
+		{
+			"root":"Fusobacterium ulcerans"
+		},
+		{
+			"root":"Syntrophomonas"
+		},
+		{
+			"root":"Syntrophomonas wolfei"
+		},
+		{
+			"root":"Pectinatus"
+		},
+		{
+			"root":"Pectinatus frisingensis"
+		},
+		{
+			"root":"Ruminobacter"
+		},
+		{
+			"root":"Ruminobacter amylophilus"
+		},
+		{
+			"root":"Cardiobacteriaceae"
+		},
+		{
+			"root":"Dichelobacter"
+		},
+		{
+			"root":"Dichelobacter nodosus"
+		},
+		{
+			"root":"Desulfovibrio"
+		},
+		{
+			"root":"Desulfovibrio africanus"
+		},
+		{
+			"root":"Desulfovibrio desulfuricans"
+		},
+		{
+			"root":"Desulfovibrio fructosivorans"
+		},
+		{
+			"root":"Desulfovibrio gigas"
+		},
+		{
+			"root":"Desulfovibrio salexigens"
+		},
+		{
+			"root":"Desulfovibrio vulgaris"
+		},
+		{
+			"root":"Desulfovibrio vulgaris str. Hildenborough"
+		},
+		{
+			"root":"Desulfovibrio vulgaris str. 'Miyazaki F'"
+		},
+		{
+			"root":"Desulfovibrio oxamicus (strain Monticello)"
+		},
+		{
+			"root":"Desulfovibrio sp."
+		},
+		{
+			"root":"Thermodesulfobacterium thermophilum"
+		},
+		{
+			"root":"Desulfobotulus sapovorans"
+		},
+		{
+			"root":"Desulfovibrio longus"
+		},
+		{
+			"root":"Desulfuromonas"
+		},
+		{
+			"root":"Desulfuromonas acetoxidans"
+		},
+		{
+			"root":"Desulfuromonas sp."
+		},
+		{
+			"root":"Desulfobulbus"
+		},
+		{
+			"root":"Desulfobulbus propionicus"
+		},
+		{
+			"root":"Desulfobulbus sp."
+		},
+		{
+			"root":"Desulfococcus"
+		},
+		{
+			"root":"Desulfococcus multivorans"
+		},
+		{
+			"root":"Desulfomicrobium"
+		},
+		{
+			"root":"Desulfomicrobium baculatum"
+		},
+		{
+			"root":"Desulfovibrio piger"
+		},
+		{
+			"root":"Acidaminococcus"
+		},
+		{
+			"root":"Acidaminococcus fermentans"
+		},
+		{
+			"root":"Megasphaera"
+		},
+		{
+			"root":"Megasphaera elsdenii"
+		},
+		{
+			"root":"Nitrobacter"
+		},
+		{
+			"root":"Nitrobacter hamburgensis"
+		},
+		{
+			"root":"Nitrobacter winogradskyi"
+		},
+		{
+			"root":"Nitrosomonas"
+		},
+		{
+			"root":"Nitrosomonas europaea"
+		},
+		{
+			"root":"Nitrosomonas eutropha"
+		},
+		{
+			"root":"Nitrosomonas marina"
+		},
+		{
+			"root":"Thiobacillus"
+		},
+		{
+			"root":"Acidithiobacillus ferrooxidans"
+		},
+		{
+			"root":"Starkeya novella"
+		},
+		{
+			"root":"Guyparkeria hydrothermalis"
+		},
+		{
+			"root":"Thiobacillus sp."
+		},
+		{
+			"root":"Thiomonas intermedia"
+		},
+		{
+			"root":"Halothiobacillus neapolitanus"
+		},
+		{
+			"root":"Thiomonas perometabolis"
+		},
+		{
+			"root":"Thermithiobacillus tepidarius"
+		},
+		{
+			"root":"Acidithiobacillus thiooxidans"
+		},
+		{
+			"root":"Thiobacillus thioparus"
+		},
+		{
+			"root":"Thiomicrospira thyasirae"
+		},
+		{
+			"root":"Thiomicrospira"
+		},
+		{
+			"root":"Thiomicrospira pelophila"
+		},
+		{
+			"root":"Thiomicrospira sp."
+		},
+		{
+			"root":"Thiovulum"
+		},
+		{
+			"root":"Thiovulum sp."
+		},
+		{
+			"root":"Hydrogenobacter"
+		},
+		{
+			"root":"Hydrogenobacter thermophilus"
+		},
+		{
+			"root":"Anaplasmataceae"
+		},
+		{
+			"root":"Ehrlichia"
+		},
+		{
+			"root":"Ehrlichia canis"
+		},
+		{
+			"root":"Ehrlichia chaffeensis"
+		},
+		{
+			"root":"Ehrlichia ewingii"
+		},
+		{
+			"root":"agent of human granulocytic ehrlichiosis;Anaplasma phagocytophilum"
+		},
+		{
+			"root":"Anaplasma platys"
+		},
+		{
+			"root":"equine monocytic ehrlichiosis agent;Neorickettsia risticii;Potomac horse fever agent"
+		},
+		{
+			"root":"Neorickettsia sennetsu"
+		},
+		{
+			"root":"Wolbachieae"
+		},
+		{
+			"root":"Wolbachia"
+		},
+		{
+			"root":"Francisella persica"
+		},
+		{
+			"root":"Wolbachia pipientis"
+		},
+		{
+			"root":"Wolbachia sp."
+		},
+		{
+			"root":"Bdellovibrio"
+		},
+		{
+			"root":"Bdellovibrio bacteriovorus"
+		},
+		{
+			"root":"Bacteriovorax stolpii"
+		},
+		{
+			"root":"Campylobacter-like bacterium"
+		},
+		{
+			"root":"Herbaspirillum"
+		},
+		{
+			"root":"Herbaspirillum seropedicae"
+		},
+		{
+			"root":"Oceanospirillum"
+		},
+		{
+			"root":"Oceanospirillum linum"
+		},
+		{
+			"root":"Spirillum"
+		},
+		{
+			"root":"Spirillum volutans"
+		},
+		{
+			"root":"Selenomonas"
+		},
+		{
+			"root":"Selenomonas ruminantium"
+		},
+		{
+			"root":"Halanaerobiaceae"
+		},
+		{
+			"root":"Sporohalobacter"
+		},
+		{
+			"root":"Sporohalobacter lortetii"
+		},
+		{
+			"root":"Bacteroidetes"
+		},
+		{
+			"root":"Cytophaga"
+		},
+		{
+			"root":"Cellulophaga lytica"
+		},
+		{
+			"root":"Persicobacter diffluens"
+		},
+		{
+			"root":"Saccharicrinis fermentans"
+		},
+		{
+			"root":"Flavobacterium flevense"
+		},
+		{
+			"root":"Pedobacter heparinus"
+		},
+		{
+			"root":"Cytophaga hutchinsonii"
+		},
+		{
+			"root":"Flavobacterium johnsoniae"
+		},
+		{
+			"root":"Aquimarina latercula"
+		},
+		{
+			"root":"Leeuwenhoekiella marinoflava"
+		},
+		{
+			"root":"Marinilabilia salmonicolor"
+		},
+		{
+			"root":"Cytophaga xylanolytica"
+		},
+		{
+			"root":"Flavobacterium hydatis"
+		},
+		{
+			"root":"Flexibacter"
+		},
+		{
+			"root":"Solitalea canadensis"
+		},
+		{
+			"root":"Flavobacterium columnare"
+		},
+		{
+			"root":"Eisenibacter elegans"
+		},
+		{
+			"root":"Flexibacter flexilis"
+		},
+		{
+			"root":"Bernardetia litoralis"
+		},
+		{
+			"root":"Garritya polymorpha"
+		},
+		{
+			"root":"Hugenholtzia roseola"
+		},
+		{
+			"root":"Thermoflexibacter ruber"
+		},
+		{
+			"root":"Chitinophaga sancti"
+		},
+		{
+			"root":"Flexibacter sp."
+		},
+		{
+			"root":"Marivirga tractuosa"
+		},
+		{
+			"root":"Saprospira"
+		},
+		{
+			"root":"Saprospira grandis"
+		},
+		{
+			"root":"Sphingobacterium mizutaii"
+		},
+		{
+			"root":"Sporocytophaga"
+		},
+		{
+			"root":"Sporocytophaga cauliformis"
+		},
+		{
+			"root":"Weeksella"
+		},
+		{
+			"root":"Weeksella virosa"
+		},
+		{
+			"root":"Bergeyella zoohelcum"
+		},
+		{
+			"root":"Capnocytophaga"
+		},
+		{
+			"root":"Capnocytophaga gingivalis"
+		},
+		{
+			"root":"Capnocytophaga ochracea"
+		},
+		{
+			"root":"Capnocytophaga sputigena"
+		},
+		{
+			"root":"Beggiatoa"
+		},
+		{
+			"root":"Beggiatoa alba"
+		},
+		{
+			"root":"Microscilla"
+		},
+		{
+			"root":"Flammeovirga arenaria"
+		},
+		{
+			"root":"Marinoscillum furvescens"
+		},
+		{
+			"root":"Microscilla marina"
+		},
+		{
+			"root":"Marivirga sericea"
+		},
+		{
+			"root":"Thiothrix"
+		},
+		{
+			"root":"Thiothrix nivea"
+		},
+		{
+			"root":"Thiothrix sp."
+		},
+		{
+			"root":"Afipia"
+		},
+		{
+			"root":"Afipia clevelandensis"
+		},
+		{
+			"root":"Afipia felis;cat scratch disease bacillus"
+		},
+		{
+			"root":"Barophile WHB 46"
+		},
+		{
+			"root":"Erythrobacter"
+		},
+		{
+			"root":"Erythrobacter sp."
+		},
+		{
+			"root":"Erythrobacter longus"
+		},
+		{
+			"root":"Chromatiaceae;purple sulfur bacteria"
+		},
+		{
+			"root":"Chromatium"
+		},
+		{
+			"root":"Marichromatium gracile"
+		},
+		{
+			"root":"Allochromatium vinosum"
+		},
+		{
+			"root":"Thermochromatium tepidum"
+		},
+		{
+			"root":"Ectothiorhodospira"
+		},
+		{
+			"root":"Halorhodospira halochloris"
+		},
+		{
+			"root":"Halorhodospira halophila"
+		},
+		{
+			"root":"Ectothiorhodospira shaposhnikovii"
+		},
+		{
+			"root":"Thiocapsa"
+		},
+		{
+			"root":"Thiococcus pfennigii"
+		},
+		{
+			"root":"Thiocapsa roseopersicina"
+		},
+		{
+			"root":"Rhodobacter"
+		},
+		{
+			"root":"Rhodobacter capsulatus"
+		},
+		{
+			"root":"Rhodobacter sp."
+		},
+		{
+			"root":"Rhodobacter sphaeroides"
+		},
+		{
+			"root":"Rhodocyclus"
+		},
+		{
+			"root":"Rhodocyclus tenuis"
+		},
+		{
+			"root":"Rhodocyclus purpureus"
+		},
+		{
+			"root":"Rhodomicrobium"
+		},
+		{
+			"root":"Rhodomicrobium vannielii"
+		},
+		{
+			"root":"Rhodopila"
+		},
+		{
+			"root":"Rhodopila globiformis"
+		},
+		{
+			"root":"Rhodopseudomonas"
+		},
+		{
+			"root":"Rhodoblastus acidophilus"
+		},
+		{
+			"root":"Rhodobacter blasticus"
+		},
+		{
+			"root":"Rhodopseudomonas palustris"
+		},
+		{
+			"root":"Rhodopseudomonas sp."
+		},
+		{
+			"root":"Blastochloris viridis"
+		},
+		{
+			"root":"Afifella marina"
+		},
+		{
+			"root":"Rhodospirillum"
+		},
+		{
+			"root":"Phaeospirillum fulvum"
+		},
+		{
+			"root":"Phaeospirillum molischianum"
+		},
+		{
+			"root":"Pararhodospirillum photometricum"
+		},
+		{
+			"root":"Rhodospirillum rubrum"
+		},
+		{
+			"root":"Rhodothalassium salexigens"
+		},
+		{
+			"root":"Rhodovibrio salinarum"
+		},
+		{
+			"root":"Rhodovibrio sodomensis"
+		},
+		{
+			"root":"Chlorobi"
+		},
+		{
+			"root":"Chlorobium"
+		},
+		{
+			"root":"Chlorobium limicola"
+		},
+		{
+			"root":"Chlorobium phaeovibrioides"
+		},
+		{
+			"root":"Chlorobium sp."
+		},
+		{
+			"root":"Chlorobium phaeobacteroides"
+		},
+		{
+			"root":"Chlorobaculum tepidum"
+		},
+		{
+			"root":"Prosthecochloris vibrioformis"
+		},
+		{
+			"root":"Pelodictyon"
+		},
+		{
+			"root":"Pelodictyon luteolum"
+		},
+		{
+			"root":"Prosthecochloris"
+		},
+		{
+			"root":"Prosthecochloris aestuarii"
+		},
+		{
+			"root":"Clathrochloris"
+		},
+		{
+			"root":"Clathrochloris sulfurica"
+		},
+		{
+			"root":"Chloroflexaceae;filamentous anoxygenic phototrophic bacteria;photosynthetic flexibacteria"
+		},
+		{
+			"root":"Chloroflexus"
+		},
+		{
+			"root":"Chloroflexus aurantiacus"
+		},
+		{
+			"root":"Heliothrix"
+		},
+		{
+			"root":"Heliothrix oregonensis"
+		},
+		{
+			"root":"Porphyrobacter"
+		},
+		{
+			"root":"Porphyrobacter neustonensis"
+		},
+		{
+			"root":"Porphyrobacter sp."
+		},
+		{
+			"root":"blue-green algae;blue-green bacteria;Cyanobacteria;cyanophytes"
+		},
+		{
+			"root":"Chroococcales"
+		},
+		{
+			"root":"Aphanocapsa"
+		},
+		{
+			"root":"Aphanothece"
+		},
+		{
+			"root":"Aphanothece sacrum"
+		},
+		{
+			"root":"Chlorogloeopsis"
+		},
+		{
+			"root":"Chlorogloeopsis fritschii"
+		},
+		{
+			"root":"Microcystis"
+		},
+		{
+			"root":"Microcystis aeruginosa"
+		},
+		{
+			"root":"Microcystis sp."
+		},
+		{
+			"root":"Microcystis sp. 'BC 84/1'"
+		},
+		{
+			"root":"Synechococcus"
+		},
+		{
+			"root":"Synechococcus sp."
+		},
+		{
+			"root":"Synechococcus elongatus PCC 7942"
+		},
+		{
+			"root":"Synechocystis"
+		},
+		{
+			"root":"Synechocystis sp."
+		},
+		{
+			"root":"Synechocystis sp. PCC 6701"
+		},
+		{
+			"root":"Synechocystis sp. PCC 6714"
+		},
+		{
+			"root":"Synechocystis sp. PCC 6803"
+		},
+		{
+			"root":"Oscillatoriales"
+		},
+		{
+			"root":"oscillatoriacean cyanobacterium"
+		},
+		{
+			"root":"Pseudanabaena"
+		},
+		{
+			"root":"Pseudanabaena sp."
+		},
+		{
+			"root":"Spirulina"
+		},
+		{
+			"root":"Spirulina sp."
+		},
+		{
+			"root":"Oscillatoria"
+		},
+		{
+			"root":"Oscillatoria sp."
+		},
+		{
+			"root":"Planktothrix agardhii"
+		},
+		{
+			"root":"Nostocales"
+		},
+		{
+			"root":"Nostocaceae"
+		},
+		{
+			"root":"Anabaena"
+		},
+		{
+			"root":"Trichormus azollae"
+		},
+		{
+			"root":"Anabaena cylindrica"
+		},
+		{
+			"root":"Dolichospermum flos-aquae"
+		},
+		{
+			"root":"Anabaena sp."
+		},
+		{
+			"root":"Nostoc sp. PCC 7119"
+		},
+		{
+			"root":"Anabaena oscillarioides"
+		},
+		{
+			"root":"Aphanizomenon"
+		},
+		{
+			"root":"Aphanizomenon flos-aquae"
+		},
+		{
+			"root":"Nostoc"
+		},
+		{
+			"root":"Nostoc commune"
+		},
+		{
+			"root":"Desmonostoc muscorum"
+		},
+		{
+			"root":"Nostoc sp."
+		},
+		{
+			"root":"Desmonostoc sp. PCC 7906"
+		},
+		{
+			"root":"Scytonemataceae"
+		},
+		{
+			"root":"Plectonema"
+		},
+		{
+			"root":"Leptolyngbya boryana"
+		},
+		{
+			"root":"Rivulariaceae"
+		},
+		{
+			"root":"Calothrix"
+		},
+		{
+			"root":"Calothrix sp."
+		},
+		{
+			"root":"Tolypothrix sp. PCC 7601"
+		},
+		{
+			"root":"Stigonemataceae"
+		},
+		{
+			"root":"Fischerella"
+		},
+		{
+			"root":"Fischerella sp."
+		},
+		{
+			"root":"Microchaete diplosiphon"
+		},
+		{
+			"root":"Phormidium"
+		},
+		{
+			"root":"Phormidium sp."
+		},
+		{
+			"root":"Phormidium minutum"
+		},
+		{
+			"root":"Leptolyngbya ectocarpi"
+		},
+		{
+			"root":"Scytonema"
+		},
+		{
+			"root":"Scytonema sp."
+		},
+		{
+			"root":"Trichodesmium"
+		},
+		{
+			"root":"Trichodesmium erythraeum"
+		},
+		{
+			"root":"Trichodesmium sp."
+		},
+		{
+			"root":"Trichodesmium thiebautii"
+		},
+		{
+			"root":"uncultured cyanobacterium"
+		},
+		{
+			"root":"Prochloraceae;prochlorophytes"
+		},
+		{
+			"root":"Prochloron"
+		},
+		{
+			"root":"Prochloron sp."
+		},
+		{
+			"root":"Prochloron didemni"
+		},
+		{
+			"root":"Prochlorococcus"
+		},
+		{
+			"root":"Prochlorococcus marinus"
+		},
+		{
+			"root":"Prochlorococcus sp."
+		},
+		{
+			"root":"Prochlorothrix"
+		},
+		{
+			"root":"Prochlorothrix hollandica"
+		},
+		{
+			"root":"Proteobacteria;purple bacteria and relatives;purple bacteria;purple non-sulfur bacteria;purple photosynthetic bacteria and relatives;purple photosynthetic bacteria"
+		},
+		{
+			"root":"Nitrosococcus"
+		},
+		{
+			"root":"Nitrosococcus oceani"
+		},
+		{
+			"root":"Nitrosospira multiformis"
+		},
+		{
+			"root":"Nitrosovibrio"
+		},
+		{
+			"root":"Nitrosovibrio tenuis"
+		},
+		{
+			"root":"Nitrospira"
+		},
+		{
+			"root":"Gammaproteobacteria"
+		},
+		{
+			"root":"Piscirickettsia"
+		},
+		{
+			"root":"Piscirickettsia salmonis"
+		},
+		{
+			"root":"Firmicutes;low GC Gram+;low G+C Gram-positive bacteria"
+		},
+		{
+			"root":"Leuconostoc"
+		},
+		{
+			"root":"Leuconostoc gelidum"
+		},
+		{
+			"root":"Leuconostoc mesenteroides"
+		},
+		{
+			"root":"Leuconostoc lactis"
+		},
+		{
+			"root":"Oenococcus oeni"
+		},
+		{
+			"root":"Weissella paramesenteroides"
+		},
+		{
+			"root":"Leuconostoc fallax"
+		},
+		{
+			"root":"Leuconostoc carnosum"
+		},
+		{
+			"root":"Pediococcus"
+		},
+		{
+			"root":"Pediococcus acidilactici"
+		},
+		{
+			"root":"Pediococcus pentosaceus"
+		},
+		{
+			"root":"Peptostreptococcus"
+		},
+		{
+			"root":"Peptoniphilus asaccharolyticus"
+		},
+		{
+			"root":"Peptostreptococcus glycinophilus"
+		},
+		{
+			"root":"Finegoldia magna"
+		},
+		{
+			"root":"Peptostreptococcus anaerobius"
+		},
+		{
+			"root":"Peptostreptococcus sp."
+		},
+		{
+			"root":"Ruminococcus"
+		},
+		{
+			"root":"Ruminococcus albus"
+		},
+		{
+			"root":"Ruminococcus flavefaciens"
+		},
+		{
+			"root":"Sarcina"
+		},
+		{
+			"root":"Clostridium ventriculi"
+		},
+		{
+			"root":"Micrococcaceae"
+		},
+		{
+			"root":"Micrococcus"
+		},
+		{
+			"root":"Micrococcus luteus"
+		},
+		{
+			"root":"Micrococcus sp."
+		},
+		{
+			"root":"Kocuria varians"
+		},
+		{
+			"root":"Micrococcus lylae"
+		},
+		{
+			"root":"Dermacoccus nishinomiyaensis"
+		},
+		{
+			"root":"Kocuria rosea"
+		},
+		{
+			"root":"Kytococcus sedentarius"
+		},
+		{
+			"root":"Staphylococcus"
+		},
+		{
+			"root":"Staphylococcus aureus"
+		},
+		{
+			"root":"Staphylococcus carnosus"
+		},
+		{
+			"root":"Staphylococcus epidermidis"
+		},
+		{
+			"root":"Staphylococcus haemolyticus"
+		},
+		{
+			"root":"Staphylococcus hyicus"
+		},
+		{
+			"root":"Staphylococcus intermedius"
+		},
+		{
+			"root":"Staphylococcus simulans"
+		},
+		{
+			"root":"Staphylococcus simulans bv. staphylolyticus"
+		},
+		{
+			"root":"Staphylococcus xylosus"
+		},
+		{
+			"root":"Staphylococcus hominis"
+		},
+		{
+			"root":"Staphylococcus warneri"
+		},
+		{
+			"root":"Staphylococcus gallinarum"
+		},
+		{
+			"root":"Staphylococcus muscae"
+		},
+		{
+			"root":"Staphylococcus schleiferi"
+		},
+		{
+			"root":"Staphylococcus sciuri"
+		},
+		{
+			"root":"Deinococcus-Thermus"
+		}
+	]
+}
