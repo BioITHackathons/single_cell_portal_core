@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/style.css">
+
+    <title>Hello FAIR world!</title>
+  </head>
+  <body>
+
+    <div class="col-sm-8">
+    <h1>Hello FAIR world!</h1>
+      <div class="form-group row">
+        <label for="projectTitle" class="col-sm-2 col-form-label">Project title</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="projectTitle" placeholder="Project title" required>
+          <div class="invalid-tooltip">
+            Please provide a project title.
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="projectDescription" class="col-sm-2 col-form-label">Project description</label>
+        <div class="col-sm-10">
+          <textarea class="form-control" id="projectDescription" rows="3" required></textarea>
+          <div class="invalid-tooltip">
+            Please provide a project descriptions.
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-12 text-right">
+          <button type="submit" class="btn btn-primary" id="nextButton">Next</button>
+        </div>
+      </div>
+      <div class="form-group row invisible">
+        <label for="genusSpecies" class="col-sm-2 col-form-label">Genus species</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control autocomplete" id="genusSpecies" placeholder="Genus species" required data-url="organism">
+          <div class="invalid-tooltip">
+            Please provide a valid genus species.
+          </div>
+        </div>
+      </div>
+      <div class="form-group row invisible">
+        <label for="organ" class="col-sm-2 col-form-label">Organ</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="organ" placeholder="Organ" required>
+          <div class="invalid-tooltip">
+            Please provide a valid organ.
+          </div>
+        </div>
+      </div>
+      <div class="form-group row invisible">
+        <label for="organPart" class="col-sm-2 col-form-label">Organ part</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="organPart" placeholder="Organ part" required>
+          <div class="invalid-tooltip">
+            Please provide a valid organ part.
+          </div>
+        </div>
+      </div>
+      <div class="form-group row invisible">
+        <label for="disease" class="col-sm-2 col-form-label">Disease</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="disease" placeholder="Disease" required>
+          <div class="invalid-tooltip">
+            Please provide a valid disease.
+          </div>
+        </div>
+      </div>
+      <div class="form-group row invisible">
+        <div class="col-sm-12 text-right">
+          <button type="submit" class="btn btn-primary">Confirm</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- load global jquery. FIXME don't load two jQueries -->
+    <script src="static/jquery-3.3.1.min.js"></script>
+    <!-- Boostrap compatible jQuery plugin for autocomplete -->
+    <script src="https://gitcdn.link/repo/xcash/bootstrap-autocomplete/master/dist/latest/bootstrap-autocomplete.min.js"></script>
+
+    <script>
+    $( "#nextButton" ).click(function() {
+      $( ".form-group" ).removeClass( "invisible" ),
+      $( "#genusSpecies" ).val( "Homo sapiens" ),
+      $( "#organ" ).val( "Brain" ),
+      $( "#organPart" ).val( "Astrocyte" ),
+      $( "#disease" ).val( "Glioblastoma" );
+    });
+    </script>
+
+    <script src="static/autocomplete.js"></script>
+
+  </body>
+</html>
