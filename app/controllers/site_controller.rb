@@ -233,27 +233,37 @@ class SiteController < ApplicationController
   def search_analysis_metadata
     # only allow searching on public metadata
     matches = AnalysisMetadatum.where(published: true)
-    params.each do |param, value|
+    search_params = params.dup.delete_if {|k, v| k == 'controller' || k == 'action' || k == 'format' || k == 'query_type'}
+    search_operator = :where # default values, all queries are concatenated as 'AND' logical queries
+    if search_params.empty?
+      params[:query_type] = 'ALL'
+    elsif params[:query_type].present? && params[:query_type].downcase == 'or'
+      search_operator = :any_of # change all queries to 'OR' logical queries
+      params[:query_type] = 'OR'
+    else
+      params[:query_type] = 'AND'
+    end
+    search_params.each do |param, value|
       case param
         when 'submission_id'
-          matches = matches.where(submission_id: params[:submission_id])
+          matches = matches.send(search_operator, {submission_id: params[:submission_id]})
         when 'study'
           studies = Study.any_of({name: /#{params[:study]}/},{url_safe_name: /#{params[:study]}/})
           if studies.size > 0
             ids = studies.map(&:id)
-            matches = matches.where(:study_id.in => ids)
+            matches = matches.send(search_operator, {:study_id.in => ids})
           end
         when 'name'
-          matches = matches.where(name: /#{params[:name]}/)
+          matches = matches.send(search_operator, {name: /#{params[:name]}/})
+        else
+          matches = matches.send(search_operator, {"#{param}" => value})
       end
     end
 
-    logger.info "matches: #{matches.inspect}"
-
-    search_params = params.delete_if {|k, v| k == 'controller' || k == 'action' || k == 'format'}
+    search_params.merge!({query_type: params[:query_type]})
 
     @results = {
-        search_string: search_params,
+        query: search_params,
         results: matches.map(&:fair_header)
     }
     respond_to do |format|
