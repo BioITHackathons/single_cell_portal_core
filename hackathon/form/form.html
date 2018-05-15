@@ -7,19 +7,22 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
-    <title>Hello FAIR world!</title>
+    <title>New study</title>
   </head>
   <body>
 
-    <div class="col-sm-8">
-    <h1>Hello FAIR world!</h1>
+  <div class="col-sm-8">
+  <h1>New study</h1>
+  <h2>Project</h2>
+  <form class="needs-validation" novalidate>
       <div class="form-group row">
         <label for="projectTitle" class="col-sm-2 col-form-label">Project title</label>
         <div class="col-sm-10">
           <input type="text" class="form-control" id="projectTitle" placeholder="Project title" required>
-          <div class="invalid-tooltip">
+          <div class="invalid-feedback">
             Please provide a project title.
           </div>
         </div>
@@ -28,57 +31,116 @@
         <label for="projectDescription" class="col-sm-2 col-form-label">Project description</label>
         <div class="col-sm-10">
           <textarea class="form-control" id="projectDescription" rows="3" required></textarea>
-          <div class="invalid-tooltip">
-            Please provide a project descriptions.
+          <div class="invalid-feedback">
+            Please provide a project description.
           </div>
         </div>
       </div>
       <div class="form-group row">
         <div class="col-sm-12 text-right">
-          <button type="submit" class="btn btn-primary" id="nextButton">Next</button>
+          <button class="btn btn-primary" id="nextButton">Next</button>
         </div>
       </div>
-      <div class="form-group row invisible">
-        <label for="genusSpecies" class="col-sm-2 col-form-label">Genus species</label>
-        <div class="col-sm-10">
-          <input type="text" class="form-control" id="genusSpecies" placeholder="Genus species" required>
-          <div class="invalid-tooltip">
-            Please provide a valid genus species.
+
+      <section id="ontology" class="invisible">
+        <h2>Ontology</h2>
+        <div class="form-group row">
+          <label for="genusSpecies" class="col-sm-2 col-form-label">Genus species</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="genusSpecies" placeholder="Genus species" required>
+            <div class="invalid-feedback">
+              Please provide a valid genus species.
+            </div>
           </div>
         </div>
-      </div>
-      <div class="form-group row invisible">
-        <label for="organ" class="col-sm-2 col-form-label">Organ</label>
-        <div class="col-sm-10">
-          <input type="text" class="form-control" id="organ" placeholder="Organ" required>
-          <div class="invalid-tooltip">
-            Please provide a valid organ.
+        <div class="form-group row">
+          <label for="organ" class="col-sm-2 col-form-label">Organ</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="organ" placeholder="Organ" required>
+            <div class="invalid-feedback">
+              Please provide a valid organ.
+            </div>
           </div>
         </div>
-      </div>
-      <div class="form-group row invisible">
-        <label for="organPart" class="col-sm-2 col-form-label">Organ part</label>
-        <div class="col-sm-10">
-          <input type="text" class="form-control" id="organPart" placeholder="Organ part" required>
-          <div class="invalid-tooltip">
-            Please provide a valid organ part.
+        <div class="form-group row">
+          <label for="organPart" class="col-sm-2 col-form-label">Organ part</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="organPart" placeholder="Organ part" required>
+            <div class="invalid-feedback">
+              Please provide a valid organ part.
+            </div>
           </div>
         </div>
-      </div>
-      <div class="form-group row invisible">
-        <label for="disease" class="col-sm-2 col-form-label">Disease</label>
-        <div class="col-sm-10">
-          <input type="text" class="form-control" id="disease" placeholder="Disease" required>
-          <div class="invalid-tooltip">
-            Please provide a valid disease.
+        <div class="form-group row">
+          <label for="disease" class="col-sm-2 col-form-label">Disease</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="disease" placeholder="Disease" required>
+            <div class="invalid-feedback">
+              Please provide a valid disease.
+            </div>
           </div>
         </div>
-      </div>
-      <div class="form-group row invisible">
+      </section>
+
+      <section id="projectInformation" class="invisible">
+        <h2>Project information</h2>
+        <div class="form-group row">
+          <label for="visibility" class="col-sm-2 col-form-label">Visibility</label>
+          <div class="col-sm-10">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+              <label class="form-check-label" for="inlineRadio1">Private</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">Public</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="workspace" class="col-sm-2 col-form-label">Workspace</label>
+          <div class="col-sm-10">
+            <select class="form-control" id="workspace">
+              <option>Create a new workspace</option>
+              <option>Workspace 1</option>
+              <option>Workspace 2</option>
+            </select>
+            <small id="workspaceHelpBlock" class="form-text text-muted">
+              All uploaded data files for studies are stored in FireCloud workspaces. If you do not already have a FireCloud account, you will receive an invitation email after you create your study.
+            </small>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="workspace" class="col-sm-2 col-form-label">Billing Project</label>
+          <div class="col-sm-10">
+            <select class="form-control" id="workspace">
+              <option>Default project (no analysis possible)</option>
+              <option>Workspace 1</option>
+              <option>Workspace 2</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="licensing" class="col-sm-2 col-form-label">Licensing</label>
+          <div class="col-sm-10">
+            <select class="form-control" id="workspace">
+              <option>Open source</option>
+              <option>License 1</option>
+              <option>License 2</option>
+            </select>
+          </div>
+        </div>
+
+      <div class="form-group row">
         <div class="col-sm-12 text-right">
           <button type="submit" class="btn btn-primary">Confirm</button>
         </div>
       </div>
+      </section>
+
+    </form>
 
     </div>
 
@@ -90,13 +152,36 @@
 
     <script>
     $( "#nextButton" ).click(function() {
-      $( ".form-group" ).removeClass( "invisible" ),
+      $( this ).hide(),
+      $( "#ontology" ).removeClass( "invisible" ),
+      $( "#projectInformation" ).removeClass( "invisible" ),
       $( "#genusSpecies" ).val( "Homo sapiens" ),
       $( "#organ" ).val( "Brain" ),
       $( "#organPart" ).val( "Astrocyte" ),
       $( "#disease" ).val( "Glioblastoma" );
     });
 
+    </script>
+
+    <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
     </script>
 
   </body>

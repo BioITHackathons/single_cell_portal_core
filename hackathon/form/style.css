@@ -1,3 +1,24 @@
+
+div h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  color: #282828;
+  -webkit-text-stroke: 0.5px;
+  margin-bottom: 20px;
+  margin-top:40px;
+}
+
+div h1 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: #282828;
+  -webkit-text-stroke: 0.5px;
+  margin: 20px;
+}
+
 .form-group button {
    color: #282828;
    background-color: #fff;
@@ -8,4 +29,10 @@
    transition: all .2s ease;
    margin-top: 15px;
    cursor: pointer;
+}
+
+.form-group button:hover {
+  border: 1px solid #282828;
+  background-color: #282828;
+  color: #fff;
 }
