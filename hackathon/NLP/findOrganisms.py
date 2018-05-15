@@ -3,6 +3,7 @@ import numpy as np
 pd.set_option('display.max_columns', None)
 import json
 import re
+import sys
 
 #how to run:
 
@@ -13,13 +14,6 @@ readDictionary = r"C:\Users\sdanesh\Documents\hackathon\taxon.txt"
 
 
 
-
-
-#TODO take file path for taking input 
-#TODO print json to path entered for output
-#!/usr/bin/python
-
-import sys
 
 print("Number of arguments:" + str(len(sys.argv)), "arguments.")
 print ("Argument List:"+ str(sys.argv))
