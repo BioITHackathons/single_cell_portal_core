@@ -10,10 +10,15 @@ L = logging.getLogger(__name__)
 
 app = Flask(__name__)
 
-ORGANISMS = {
-    'someval1': 'display name',
-    'someval2': 'display name 2',
-}
+ORGANISMS = {}
+# Read in taxon.txt
+with open('taxon.txt', 'rb') as taxon_file:
+    for line in taxon_file:
+        line = line.decode('utf8').strip()
+        if not line:
+            continue
+        url, text = line.split(maxsplit=1)
+        ORGANISMS[url] = text
 
 
 @app.route("/")
