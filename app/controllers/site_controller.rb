@@ -207,6 +207,7 @@ class SiteController < ApplicationController
           @directories = @study.directory_listings.are_synced
           @primary_data = @study.directory_listings.primary_data
           @other_data = @study.directory_listings.non_primary_data
+          @analyses = @study.analysis_metadata.public
 
           # double check on download availability: first, check if administrator has disabled downloads
           # then check if FireCloud is available and disable download links if either is true
