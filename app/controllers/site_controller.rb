@@ -15,7 +15,8 @@ class SiteController < ApplicationController
 
   respond_to :html, :js, :json
 
-  before_action :set_study, except: [:index, :search, :privacy_policy, :view_workflow_wdl, :create_totat, :log_action, :get_workflow_options]
+  before_action :set_study, except: [:index, :search, :privacy_policy, :view_workflow_wdl, :create_totat, :log_action,
+                                     :get_workflow_options, :get_analysis_metadata, :search_analysis_metadata]
   before_action :set_cluster_group, only: [:study, :render_cluster, :render_gene_expression_plots, :render_gene_set_expression_plots,
                                            :view_gene_expression, :view_gene_set_expression, :view_gene_expression_heatmap,
                                            :view_precomputed_gene_expression_heatmap, :expression_query, :annotation_query,
@@ -29,7 +30,7 @@ class SiteController < ApplicationController
                                                   :view_gene_expression_heatmap, :view_precomputed_gene_expression_heatmap]
   before_action :check_view_permissions, except: [:index, :privacy_policy, :search, :precomputed_results, :expression_query,
                                                   :view_workflow_wdl, :log_action, :get_workspace_samples, :update_workspace_samples,
-                                                  :create_totat, :get_workflow_options]
+                                                  :create_totat, :get_workflow_options, :get_analysis_metadata, :search_analysis_metadata]
   before_action :check_compute_permissions, only: [:get_fastq_files, :get_workspace_samples, :update_workspace_samples,
                                                    :delete_workspace_samples, :get_workspace_submissions, :create_workspace_submission,
                                                    :get_submission_workflow, :abort_submission_workflow, :get_submission_errors,
@@ -206,6 +207,7 @@ class SiteController < ApplicationController
           @directories = @study.directory_listings.are_synced
           @primary_data = @study.directory_listings.primary_data
           @other_data = @study.directory_listings.non_primary_data
+          @analyses = @study.analysis_metadata.public
 
           # double check on download availability: first, check if administrator has disabled downloads
           # then check if FireCloud is available and disable download links if either is true
@@ -227,6 +229,63 @@ class SiteController < ApplicationController
   #
   ###
 
+  ## ANALYSIS-BASED
+
+  def search_analysis_metadata
+    # only allow searching on public metadata
+    matches = AnalysisMetadatum.where(published: true)
+    search_params = params.dup.delete_if {|k, v| k == 'controller' || k == 'action' || k == 'format' || k == 'query_type'}
+    search_operator = :where # default values, all queries are concatenated as 'AND' logical queries
+    if search_params.empty?
+      params[:query_type] = 'ALL'
+    elsif params[:query_type].present? && params[:query_type].downcase == 'or'
+      search_operator = :any_of # change all queries to 'OR' logical queries
+      params[:query_type] = 'OR'
+    else
+      params[:query_type] = 'AND'
+    end
+    search_params.each do |param, value|
+      case param
+        when 'submission_id'
+          matches = matches.send(search_operator, {submission_id: params[:submission_id]})
+        when 'study'
+          studies = Study.any_of({name: /#{params[:study]}/},{url_safe_name: /#{params[:study]}/})
+          if studies.size > 0
+            ids = studies.map(&:id)
+            matches = matches.send(search_operator, {:study_id.in => ids})
+          end
+        when 'name'
+          matches = matches.send(search_operator, {name: /#{params[:name]}/})
+        else
+          matches = matches.send(search_operator, {"#{param}" => value})
+      end
+    end
+
+    search_params.merge!({query_type: params[:query_type]})
+
+    @results = {
+        query: search_params,
+        results: matches.map(&:fair_header)
+    }
+    respond_to do |format|
+      format.html {render html: "<html><body><pre>#{JSON.pretty_generate(@results)}</pre></body></html>".html_safe}
+      format.json {render json: @results.to_json}
+    end
+  end
+
+  # download an instance of analysis_metadatum
+  def get_analysis_metadata
+    @analysis = AnalysisMetadatum.find_by(submission_id: params[:submission_id])
+    if @analysis.nil? || !@analysis.published?
+      head 404
+    else
+      respond_to do |format|
+        format.html {render html: "<html><body><pre>#{JSON.pretty_generate(@analysis.fair_payload)}</pre></body></html>".html_safe}
+        format.json {render json: @analysis.fair_payload.to_json}
+      end
+    end
+  end
+
   ## CLUSTER-BASED
 
   # load single study and view top-level clusters
@@ -237,6 +296,7 @@ class SiteController < ApplicationController
     @directories = @study.directory_listings.are_synced
     @primary_data = @study.directory_listings.primary_data
     @other_data = @study.directory_listings.non_primary_data
+    @analyses = @study.analysis_metadata.public
 
     # double check on download availability: first, check if administrator has disabled downloads
     # then check if FireCloud is available and disable download links if either is true
@@ -2036,7 +2096,7 @@ class SiteController < ApplicationController
     all_workflows = []
 
     # parellelize gets to speed up performance if there are a lot of workflows
-    Parallel.map(allowed_workflows, in_threads: 100) do |workflow_opts|
+    Parallel.map(allowed_workflows, in_threads: 3) do |workflow_opts|
       namespace, name, snapshot = workflow_opts.split('/')
       all_workflows << Study.firecloud_client.get_methods(namespace: namespace, name: name, snapshotId: snapshot)
     end

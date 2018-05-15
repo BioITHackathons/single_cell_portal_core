@@ -1,0 +1,14 @@
+var button = $("[data-analysis-metadata-id='<%= params[:analysis_metadata_id] %>']");
+var newText = "<%= @analysis.published? ? "Yes <i class='fa fa-fw fa-toggle-on'></i>".html_safe : "No <i class='fa fa-fw fa-toggle-off'></i>".html_safe %>";
+button.html(newText);
+
+$('#generic-update-target').html("<%= escape_javascript(render partial: '/layouts/generic_update_modal') %>");
+<% if @analysis.valid? %>
+  $('#generic-update-modal-title').html("<span class='text-success'>Success</span>");
+  $('#generic-update-modal-body').html("<%= @notice %>");
+<% else %>
+  $('#generic-update-modal-title').html("<span class='text-success'>An Error Occurred</span>");
+  $('#generic-update-modal-body').html("<%= @alert %>");
+<% end %>
+
+$("#generic-update-modal").modal("show");

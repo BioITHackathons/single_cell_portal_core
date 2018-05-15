@@ -63,6 +63,7 @@ Rails.application.routes.draw do
         post 'parse', to: 'studies#parse', as: :parse_study_file
         get 'load_annotation_options', to: 'studies#load_annotation_options', as: :load_annotation_options
         post 'update_default_options', to: 'studies#update_default_options', as: :update_default_options
+        patch 'update_analysis_metadata/:analysis_metadata_id', to: 'studies#update_analysis_metadata', as: :update_analysis_metadata
 			end
     end
 
@@ -108,6 +109,10 @@ Rails.application.routes.draw do
     post 'study/:study_name/precomputed_gene_expression', to: 'site#search_precomputed_results', as: :search_precomputed_results
     get 'study/:study_name/precomputed_gene_expression', to: 'site#view_precomputed_gene_expression_heatmap', as: :view_precomputed_gene_expression_heatmap
     get 'study/:study_name/precomputed_results', to: 'site#precomputed_results', as: :precomputed_results
+
+    # analysis metadata routes
+    get 'analysis/search', to: 'site#search_analysis_metadata', as: :search_analysis_metadata
+    get 'analysis/download/:submission_id', to: 'site#get_analysis_metadata', as: :get_analysis_metadata
 
     # user annotation actions
     post 'study/:study_name/create_user_annotations', to: 'site#create_user_annotations', as: :create_user_annotations

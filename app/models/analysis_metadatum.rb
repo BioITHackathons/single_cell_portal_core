@@ -8,6 +8,7 @@
 class AnalysisMetadatum
   include Mongoid::Document
   include Mongoid::Timestamps
+  include Rails.application.routes.url_helpers # for accessing named route helpers
 
   # field definitions
   belongs_to :study
@@ -15,6 +16,7 @@ class AnalysisMetadatum
   field :version, type: String # string version number indicating an HCA release
   field :name, type: String
   field :submission_id, type: String # FireCloud submission ID, also used as internal analysis_id
+  field :published, type: Boolean, default: false # is this metadatum publicly available to download
 
   ##
   # INDEXES
@@ -51,6 +53,38 @@ class AnalysisMetadatum
   ##
   # INSTANCE METHODS
   ##
+
+  # public route for accessing metadata
+  def public_url
+    "https://#{Rails.application.config.action_mailer.default_url_options[:host]}#{get_analysis_metadata_path(self.submission_id)}"
+  end
+
+  def study_url
+    "https://#{Rails.application.config.action_mailer.default_url_options[:host]}#{view_study_path(study_name: self.study.url_safe_name)}"
+  end
+
+  # payload of FAIR compliant metadata
+  def fair_payload
+    {
+        url: self.public_url,
+        study_url: self.study_url,
+        payload: self.payload
+    }
+  end
+
+  # header information with pointers to fair payload
+  def fair_header
+    {
+        url: self.public_url,
+        name: self.name,
+        study_url: self.study_url
+    }
+  end
+
+  # shorthand identifier of FireCloud method (just namespace, name, and snapshot ID)
+  def comp_method_id
+    self.payload[:computational_method].split('/')[5..7].join('/')
+  end
 
   # root directory for storing metadata schema copies
   def definition_root

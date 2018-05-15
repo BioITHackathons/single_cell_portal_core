@@ -238,6 +238,31 @@
       </table>
     </div>
   <% end %>
+  <% if @analyses.any? %>
+    <div class="well well-sm">
+      <h2>Analyses <span class="badge"><%= @analyses.size %></span> </h2>
+      <div class="table-responsive">
+        <table class="table table-striped table-condensed" id="analyses">
+          <thead>
+          <tr>
+            <th class="col-sm-5">Analysis</th>
+            <th class="col-sm-5">Computational Method</th>
+            <th class="col-sm-1">View</th>
+          </tr>
+          </thead>
+          <tbody>
+          <% @analyses.each do |analysis| %>
+            <tr>
+              <td><%= analysis.name %></td>
+              <td><%= analysis.comp_method_id %></td>
+              <td><%= link_to("<i class='fa fa-fw fa-code'></i> View Run Info".html_safe, 'javascript:;', class: 'btn btn-xs btn-info view-submission-metadata', title: 'View HCA-formatted analysis metadata', data: {toggle: 'tooltip', id: analysis.submission_id, url: get_submission_metadata_path(study_name: @study.url_safe_name, submission_id: analysis.submission_id)}) %></td>
+            </tr>
+          <% end %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  <% end %>
 </div>
 
 <script type="text/javascript">
@@ -253,6 +278,26 @@
         pagingType: 'full',
         order: [[1, 'asc'],[0, 'asc']],
         autoWidth: false
+    });
+
+    $('#analyses').dataTable({
+        pagingType: 'full',
+        order: [[0, 'asc']],
+        autoWidth: false
+    });
+
+    // view submission metadata
+    $('#analyses').on('click', '.view-submission-metadata', function () {
+        var submissionUrl = $(this).data('url');
+        $('#generic-modal-title').html("Getting Run Info... Please Wait");
+        launchModalSpinner('#generic-modal-spinner', '#generic-modal', function() {
+            $.ajax({
+                url: submissionUrl,
+                method: 'GET',
+                dataType: 'script'
+            });
+        });
+
     });
 
 </script>
