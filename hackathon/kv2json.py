@@ -23,6 +23,7 @@ else:
 
 inJson = json.load(open(fname_in))
 
+outJsonList = []
 outJson = {}
 
 for elem in inJson:
@@ -34,9 +35,9 @@ for elem in inJson:
 		outJson["genus_species"] = newElemList
 	else:
 		outJson[elem["type"]] = newElemList
+	outJsonList.append(outJson)
 
 
-outJsonList = [outJson]
 with open(fname_out, "w") as f_out:
 	json.dump(outJsonList, f_out)
 	f_out.close()
