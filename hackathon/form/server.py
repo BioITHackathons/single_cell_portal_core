@@ -1,8 +1,12 @@
-import json
+import logging
+
 from flask import Flask
 from flask import render_template
 from flask import request
 from flask.json import jsonify
+
+logging.basicConfig(level='INFO')
+L = logging.getLogger(__name__)
 
 app = Flask(__name__)
 
@@ -19,11 +23,10 @@ def root():
 
 @app.route("/organisms")
 def organisms():
-    query = request.form['q']
-    import IPython; IPython.embed()
+    query = request.args['q']
+    print (query)
     result = []
     for value, name in ORGANISMS.items():
-        print (name, query)
         if query in name:
             result.append({'value': value, 'text': name})
     return jsonify(result)
